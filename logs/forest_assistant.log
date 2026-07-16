@@ -1,0 +1,852 @@
+2026-07-16 21:09:47 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 21:09:47 | INFO     | app | ============================================================
+2026-07-16 21:09:47 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 21:09:47 | INFO     | core.settings | Файл настроек не найден, используются значения по умолчанию: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 21:09:47 | INFO     | core.theme | Тема применена: system
+2026-07-16 21:09:47 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 21:09:47 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 21:09:47 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 21:32:23 | INFO     | app | Приложение завершает работу
+2026-07-16 21:32:26 | INFO     | app | Приложение завершает работу
+2026-07-16 21:32:28 | INFO     | app | Приложение завершает работу
+2026-07-16 21:32:29 | INFO     | app | Приложение завершает работу
+2026-07-16 21:32:35 | INFO     | app | Приложение завершает работу
+2026-07-16 21:32:36 | INFO     | flet | Session was garbage collected: G5VTqIfZUag9K1y4
+2026-07-16 21:32:40 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 21:32:40 | INFO     | app | ============================================================
+2026-07-16 21:32:40 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 21:32:40 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 21:32:40 | INFO     | core.theme | Тема применена: system
+2026-07-16 21:32:40 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 21:32:40 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 21:32:40 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 21:51:43 | INFO     | app | Приложение завершает работу
+2026-07-16 21:51:44 | INFO     | flet | Session was garbage collected: lLBKF8VBlT99yZ84
+2026-07-16 21:53:04 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 21:53:04 | INFO     | app | ============================================================
+2026-07-16 21:53:04 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 21:53:04 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 21:53:04 | INFO     | core.theme | Тема применена: system
+2026-07-16 21:53:04 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 21:53:04 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 21:53:04 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 21:53:20 | INFO     | app | Приложение завершает работу
+2026-07-16 21:53:20 | ERROR    | controllers.base_controller.GlrConverterController | Ошибка диалога выбора файла
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\controllers\glr_converter_controller.py", line 80, in on_pick_file_clicked
+    files = await self._context.file_picker.pick_files(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 347, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: Session closed
+2026-07-16 21:53:20 | ERROR    | controllers.base_controller.GlrConverterController | Ошибка диалога выбора файла
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\controllers\glr_converter_controller.py", line 80, in on_pick_file_clicked
+    files = await self._context.file_picker.pick_files(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 347, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: Session closed
+2026-07-16 21:53:20 | INFO     | flet | Session was garbage collected: edaSVxbNPVJgHEA9
+2026-07-16 21:54:54 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 21:54:54 | INFO     | app | ============================================================
+2026-07-16 21:54:54 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 21:54:54 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 21:54:54 | INFO     | core.theme | Тема применена: system
+2026-07-16 21:54:54 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 21:54:54 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 21:54:54 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:03:36 | INFO     | app | Приложение завершает работу
+2026-07-16 22:03:36 | INFO     | flet | Session was garbage collected: G4VQcqDiP78yvbAd
+2026-07-16 22:04:02 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:04:02 | INFO     | app | ============================================================
+2026-07-16 22:04:02 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:04:02 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:04:02 | INFO     | core.theme | Тема применена: system
+2026-07-16 22:04:02 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:04:02 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:04:02 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:05:18 | ERROR    | controllers.base_controller.GlrConverterController | Ошибка диалога выбора папки
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\controllers\glr_converter_controller.py", line 150, in on_pick_save_dir_clicked
+    directory = await self._context.file_picker.get_directory_path(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 238, in get_directory_path
+    return await self._invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(9).get_directory_path
+2026-07-16 22:05:19 | ERROR    | controllers.base_controller.GlrConverterController | Ошибка диалога выбора файла
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\controllers\glr_converter_controller.py", line 80, in on_pick_file_clicked
+    files = await self._context.file_picker.pick_files(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 347, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(9).pick_files
+2026-07-16 22:05:20 | ERROR    | controllers.base_controller.GlrConverterController | Ошибка диалога выбора файла
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\controllers\glr_converter_controller.py", line 80, in on_pick_file_clicked
+    files = await self._context.file_picker.pick_files(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 347, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(9).pick_files
+2026-07-16 22:09:07 | INFO     | app | Приложение завершает работу
+2026-07-16 22:09:07 | INFO     | flet | Session was garbage collected: beImIS22dccFTShv
+2026-07-16 22:09:19 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:09:19 | INFO     | app | ============================================================
+2026-07-16 22:09:19 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:09:19 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:09:19 | INFO     | core.theme | Тема применена: system
+2026-07-16 22:09:19 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:09:19 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:09:19 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:09:23 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:09:25 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:09:27 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:09:37 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:09:42 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:09:55 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:09:57 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:09:58 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:10:00 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:10:02 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:12:09 | INFO     | app | Приложение завершает работу
+2026-07-16 22:12:10 | ERROR    | concurrent.futures | exception calling callback for <Future at 0x23c0926fa80 state=finished raised RuntimeError>
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 334, in _invoke_callbacks
+    callback(self)
+    ~~~~~~~~^^^^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\page.py", line 802, in _on_completion
+    raise exception
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\app.py", line 138, in close_window
+    await page.window.destroy()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\core\window.py", line 359, in destroy
+    await self._invoke_method("destroy")
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 449, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 480, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: Session closed
+2026-07-16 22:12:10 | INFO     | flet | Session was garbage collected: 9a8P4wZNNkPmlAvB
+2026-07-16 22:12:16 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:12:16 | INFO     | app | ============================================================
+2026-07-16 22:12:16 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:12:16 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:12:16 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:12:16 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:12:16 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:12:16 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:12:28 | INFO     | app | Приложение завершает работу
+2026-07-16 22:12:28 | INFO     | flet | Session was garbage collected: F5wq5P6chQejhATF
+2026-07-16 22:12:32 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:12:32 | INFO     | app | ============================================================
+2026-07-16 22:12:32 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:12:32 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:12:33 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:12:33 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:12:33 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:12:33 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:12:36 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:12:38 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:12:41 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:12:43 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:16:21 | INFO     | app | Приложение завершает работу
+2026-07-16 22:16:21 | INFO     | flet | Session was garbage collected: jK1puMrOlo3s38t0
+2026-07-16 22:16:24 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:16:24 | INFO     | app | ============================================================
+2026-07-16 22:16:24 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:16:24 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:16:24 | INFO     | core.theme | Тема применена: light
+2026-07-16 22:16:24 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:16:24 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:16:24 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:16:35 | INFO     | app | Приложение завершает работу
+2026-07-16 22:16:35 | INFO     | flet | Session was garbage collected: v4pY0Ysx2M1nPwRT
+2026-07-16 22:20:38 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:20:38 | INFO     | app | ============================================================
+2026-07-16 22:20:38 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:20:38 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:20:38 | INFO     | core.theme | Тема применена: light
+2026-07-16 22:20:38 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:20:38 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:20:38 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:20:50 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:20:52 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:20:54 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:24:22 | INFO     | flet | Session was garbage collected: ttFJwIk6aWXiXqXB
+2026-07-16 22:24:25 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:24:25 | INFO     | app | ============================================================
+2026-07-16 22:24:25 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:24:25 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:24:25 | INFO     | core.theme | Тема применена: system
+2026-07-16 22:24:25 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:24:25 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:24:25 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:24:38 | INFO     | flet | Session was garbage collected: mNbjMfOq0gQzbzj4
+2026-07-16 22:24:41 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:24:41 | INFO     | app | ============================================================
+2026-07-16 22:24:41 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:24:41 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:24:41 | INFO     | core.theme | Тема применена: system
+2026-07-16 22:24:41 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:24:41 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:24:41 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:24:46 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:24:47 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:24:58 | INFO     | flet | Session was garbage collected: eF79Gsb5EdsSQufB
+2026-07-16 22:25:00 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:25:00 | INFO     | app | ============================================================
+2026-07-16 22:25:00 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:25:00 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:25:00 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:25:00 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:25:00 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:25:00 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:25:41 | INFO     | flet | Session was garbage collected: mnwV3MUav2H9Tlkw
+2026-07-16 22:25:43 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:25:43 | INFO     | app | ============================================================
+2026-07-16 22:25:43 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:25:43 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:25:44 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:25:44 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:25:44 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:25:44 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:25:49 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:25:52 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 22:26:47 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 22:26:49 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 22:35:19 | INFO     | flet | Session was garbage collected: ajz8E6zkG4IEkq03
+2026-07-16 22:38:43 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:38:43 | INFO     | app | ============================================================
+2026-07-16 22:38:43 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:38:43 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:38:43 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:38:43 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:38:43 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:38:43 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:38:52 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 22:39:03 | INFO     | controllers.base_controller.GlrConverterController | Выбрана папка сохранения: C:\Users\Nick\Downloads\приглашение
+2026-07-16 22:39:03 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 22:39:03 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 22:39:04 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 22:39:04 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 121, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 113, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 85, in parse_xml
+    xmltodict.parse(xml_data)['stateForestRegisterExtractForestTaxingAllocation']['sectionxi'][
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ...<2 lines>...
+        'spatialsElements'][
+        ~~~~~~~~~~~~~~~~~~~~
+        'spatialsElement']['ordinates']['ordinate']
+        ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2026-07-16 22:39:04 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: list indices must be integers or slices, not str (TypeError: list indices must be integers or slices, not str)
+2026-07-16 22:58:32 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 22:58:32 | INFO     | app | ============================================================
+2026-07-16 22:58:32 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 22:58:32 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 22:58:32 | INFO     | core.theme | Тема применена: dark
+2026-07-16 22:58:33 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 22:58:33 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 22:58:33 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 22:58:38 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 22:58:47 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 22:58:47 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 22:58:47 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 22:58:47 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 121, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 113, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 85, in parse_xml
+    xmltodict.parse(xml_data)['stateForestRegisterExtractForestTaxingAllocation']['sectionxi'][
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ...<2 lines>...
+        'spatialsElements'][
+        ~~~~~~~~~~~~~~~~~~~~
+        'spatialsElement']['ordinates']['ordinate']
+        ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2026-07-16 22:58:47 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: list indices must be integers or slices, not str (TypeError: list indices must be integers or slices, not str)
+2026-07-16 23:10:22 | INFO     | flet | Session was garbage collected: ITdg3tIcq70NaKXD
+2026-07-16 23:10:24 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:10:24 | INFO     | app | ============================================================
+2026-07-16 23:10:24 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:10:24 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:10:24 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:10:24 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:10:24 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:10:24 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:10:27 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 23:10:35 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:10:35 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:10:35 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:10:35 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 125, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 117, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 90, in parse_xml
+    xmltodict.parse(xml_data)['stateForestRegisterExtractForestTaxingAllocation']['sectionxi'][
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        'data'][
+        ~~~~~~~~
+        'descriptionLocationBoundary']['contours']['contour']['entitySpatial'][
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        'spatialsElements']['spatialsElement']['ordinates']['ordinate']
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2026-07-16 23:10:35 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: list indices must be integers or slices, not str (TypeError: list indices must be integers or slices, not str)
+2026-07-16 23:23:09 | INFO     | flet | Session was garbage collected: qA4AQmxdmxcld4Kq
+2026-07-16 23:23:11 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:23:11 | INFO     | app | ============================================================
+2026-07-16 23:23:11 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:23:11 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:23:11 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:23:11 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:23:11 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:23:11 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:23:15 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 23:23:22 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:23:22 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:23:23 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:23:23 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 128, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 120, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 91, in parse_xml
+    if spatials_element.__len__(spatials_elements['spatialsElement']) > 1:
+       ^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'spatials_element' where it is not associated with a value
+2026-07-16 23:23:23 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: cannot access local variable 'spatials_element' where it is not associated with a value (UnboundLocalError: cannot access local variable 'spatials_element' where it is not associated with a value)
+2026-07-16 23:24:07 | INFO     | flet | Session was garbage collected: PUfUJpCSOobtjGkr
+2026-07-16 23:24:09 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:24:09 | INFO     | app | ============================================================
+2026-07-16 23:24:09 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:24:09 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:24:09 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:24:09 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:24:09 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:24:09 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:24:14 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 23:24:22 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:24:22 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:24:22 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:24:22 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 128, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 120, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 91, in parse_xml
+    if spatials_elements.__len__(spatials_elements['spatialsElement']) > 1:
+       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected 0 arguments, got 1
+2026-07-16 23:24:22 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: expected 0 arguments, got 1 (TypeError: expected 0 arguments, got 1)
+2026-07-16 23:25:13 | INFO     | flet | Session was garbage collected: kmM7UWCLeW37ytPu
+2026-07-16 23:25:29 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:25:29 | INFO     | app | ============================================================
+2026-07-16 23:25:29 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:25:29 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:25:29 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:25:30 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:25:30 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:25:30 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:25:32 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (4104 байт)
+2026-07-16 23:25:38 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:25:38 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:25:38 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:25:38 | INFO     | services.glr_legacy | Найдено несколько контуров, будет создано несколько треков в GPX-файле
+2026-07-16 23:25:38 | INFO     | services.glr_converter | Алгоритм конвертации завершил работу за 0.13 с
+2026-07-16 23:25:38 | INFO     | services.conversion_service | Конвертация успешно завершена за 0.23 с. Файл сохранён: C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:27:08 | INFO     | flet | Session was garbage collected: oOnAfd3SOhWpT8sh
+2026-07-16 23:27:11 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:27:11 | INFO     | app | ============================================================
+2026-07-16 23:27:11 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:27:11 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:27:11 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:27:11 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:27:11 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:27:11 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:27:15 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:27:20 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:27:20 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:27:20 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:27:20 | INFO     | services.glr_legacy | Найдено несколько контуров, будет создано несколько треков в GPX-файле
+2026-07-16 23:27:20 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 128, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 120, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 95, in parse_xml
+    data_dict = spatials_element['ordinates']['ordinate']
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-07-16 23:27:20 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: string indices must be integers, not 'str' (TypeError: string indices must be integers, not 'str')
+2026-07-16 23:28:12 | INFO     | flet | Session was garbage collected: qS8wpMDbupk79UeO
+2026-07-16 23:28:14 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:28:14 | INFO     | app | ============================================================
+2026-07-16 23:28:14 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:28:14 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:28:14 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:28:14 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:28:14 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:28:14 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:28:17 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:28:30 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:28:30 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:28:30 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:28:30 | INFO     | services.glr_legacy | Найдено несколько контуров, будет создано несколько треков в GPX-файле
+2026-07-16 23:28:30 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 128, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 120, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 95, in parse_xml
+    data_dict = spatials_element['ordinates']['ordinate']
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-07-16 23:28:30 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: string indices must be integers, not 'str' (TypeError: string indices must be integers, not 'str')
+2026-07-16 23:29:24 | INFO     | app | Приложение завершает работу
+2026-07-16 23:29:24 | INFO     | flet | Session was garbage collected: IFeg9dGMuSZdvaFk
+2026-07-16 23:29:27 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:29:27 | INFO     | app | ============================================================
+2026-07-16 23:29:27 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:29:27 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:29:27 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:29:27 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:29:27 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:29:27 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:29:30 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:29:38 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:29:38 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:29:38 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:29:38 | INFO     | services.glr_legacy | Найдено несколько контуров, будет создано несколько треков в GPX-файле
+2026-07-16 23:29:38 | ERROR    | services.glr_converter | Исключение внутри алгоритма конвертации
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_converter.py", line 181, in _call_entry_point
+    result = entry_point(str(zip_path), str(output_file))
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 128, in convert
+    service.parse_glr()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 120, in parse_glr
+    result_list = self.parse_xml()
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\services\glr_legacy.py", line 95, in parse_xml
+    data_dict = spatials_element['ordinates']['ordinate']
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-07-16 23:29:38 | WARNING  | controllers.base_controller.GlrConverterController | Ошибка конвертации: Алгоритм конвертации завершился с ошибкой: string indices must be integers, not 'str' (TypeError: string indices must be integers, not 'str')
+2026-07-16 23:31:49 | INFO     | flet | Session was garbage collected: Ll8SVnIbk279iAxw
+2026-07-16 23:31:51 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:31:51 | INFO     | app | ============================================================
+2026-07-16 23:31:51 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:31:51 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:31:51 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:31:51 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:31:51 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:31:51 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:31:54 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:32:02 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:32:02 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:32:02 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:32:02 | INFO     | services.glr_legacy | Найден один контур, будет создан один трек в GPX-файле
+2026-07-16 23:32:02 | INFO     | services.glr_converter | Алгоритм конвертации завершил работу за 0.10 с
+2026-07-16 23:32:02 | INFO     | services.conversion_service | Конвертация успешно завершена за 0.19 с. Файл сохранён: C:\Users\Nick\Downloads\приглашение\КВ 2 В 2.gpx
+2026-07-16 23:33:26 | INFO     | flet | Session was garbage collected: ULgVpIXyQiTEHZOr
+2026-07-16 23:34:24 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:34:24 | INFO     | app | ============================================================
+2026-07-16 23:34:24 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:34:24 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:34:25 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:34:25 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:34:25 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:34:25 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:34:39 | INFO     | app | Приложение завершает работу
+2026-07-16 23:34:39 | INFO     | flet | Session was garbage collected: 8KHut3maC49AlClR
+2026-07-16 23:34:46 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:34:46 | INFO     | app | ============================================================
+2026-07-16 23:34:46 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:34:46 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:34:46 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:34:46 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:34:46 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:34:46 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:34:50 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:34:56 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:34:56 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:34:56 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:34:56 | INFO     | services.glr_legacy | Найден один контур, будет создан один трек в GPX-файле
+2026-07-16 23:34:56 | INFO     | services.glr_converter | Алгоритм конвертации завершил работу за 0.12 с
+2026-07-16 23:34:56 | INFO     | services.conversion_service | Конвертация успешно завершена за 0.21 с. Файл сохранён: C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:34:59 | INFO     | utils.system | Открыт файловый менеджер для пути: C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:35:00 | INFO     | utils.system | Открыт файловый менеджер для пути: C:\Users\Nick\Downloads\приглашение\КВ 12 В 2.gpx
+2026-07-16 23:35:09 | INFO     | app | Приложение завершает работу
+2026-07-16 23:35:09 | INFO     | flet | Session was garbage collected: mxXenn1nxPMyf57w
+2026-07-16 23:36:07 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:36:07 | INFO     | app | ============================================================
+2026-07-16 23:36:07 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:36:07 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:36:07 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:36:07 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:36:07 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:36:07 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:36:25 | INFO     | app | Приложение завершает работу
+2026-07-16 23:36:26 | INFO     | flet | Session was garbage collected: DVMhY95rQnD3UZE9
+2026-07-16 23:36:31 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:36:31 | INFO     | app | ============================================================
+2026-07-16 23:36:31 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:36:31 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:36:31 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:36:31 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:36:31 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:36:31 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:36:34 | INFO     | flet | Session was garbage collected: I3TIgoW6QMsds3gP
+2026-07-16 23:36:50 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:36:50 | INFO     | app | ============================================================
+2026-07-16 23:36:50 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:36:50 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:36:50 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:36:50 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:36:50 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:36:50 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:37:42 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 23:37:44 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 23:37:46 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 23:37:58 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 23:38:20 | INFO     | app | Приложение завершает работу
+2026-07-16 23:38:21 | INFO     | flet | Session was garbage collected: 7lz8PRoT121scqoA
+2026-07-16 23:38:30 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:38:30 | INFO     | app | ============================================================
+2026-07-16 23:38:30 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:38:30 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:38:30 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:38:30 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:38:31 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:38:31 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:38:39 | INFO     | app | Приложение завершает работу
+2026-07-16 23:38:40 | INFO     | flet | Session was garbage collected: mF2kRMHUDpeoorG9
+2026-07-16 23:39:52 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:39:52 | INFO     | app | ============================================================
+2026-07-16 23:39:52 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:39:52 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:39:53 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:39:53 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:39:53 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:39:53 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:40:22 | INFO     | app | Приложение завершает работу
+2026-07-16 23:40:22 | INFO     | flet | Session was garbage collected: DHhyTTguIkxEUFen
+2026-07-16 23:41:09 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:41:09 | INFO     | app | ============================================================
+2026-07-16 23:41:09 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:41:09 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:41:09 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:41:09 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:41:09 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:41:09 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:41:21 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 23:41:23 | INFO     | core.theme | Тема изменена на: system
+2026-07-16 23:41:24 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 23:41:27 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 23:41:28 | INFO     | app | Приложение завершает работу
+2026-07-16 23:41:28 | INFO     | flet | Session was garbage collected: DdRcSvLouSLXJ2pP
+2026-07-16 23:42:05 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:42:05 | INFO     | app | ============================================================
+2026-07-16 23:42:05 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:42:05 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:42:05 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:42:05 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:42:05 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:42:05 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:42:42 | INFO     | app | Приложение завершает работу
+2026-07-16 23:42:42 | INFO     | flet | Session was garbage collected: jHKwxl3Z96zZezWi
+2026-07-16 23:43:40 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:43:40 | INFO     | app | ============================================================
+2026-07-16 23:43:40 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:43:40 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:43:40 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:43:40 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:43:40 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:43:40 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:44:00 | INFO     | flet | Session was garbage collected: AIFBjScgTkfZmUmh
+2026-07-16 23:45:02 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:45:02 | INFO     | app | ============================================================
+2026-07-16 23:45:02 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:45:02 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:45:03 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:45:03 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:45:03 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:45:03 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:45:29 | INFO     | flet | Session was garbage collected: OogUcT59ndtmchqM
+2026-07-16 23:45:51 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:45:51 | INFO     | app | ============================================================
+2026-07-16 23:45:51 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:45:51 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:45:51 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:45:51 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:45:51 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:45:51 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:46:05 | INFO     | flet | Session was garbage collected: kxT10BrCRxXu6joa
+2026-07-16 23:46:08 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:46:08 | INFO     | app | ============================================================
+2026-07-16 23:46:08 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:46:08 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:46:08 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:46:08 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:46:08 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:46:08 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:46:13 | INFO     | flet | Session was garbage collected: 1dPXEounVFLqoCX3
+2026-07-16 23:47:49 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:47:49 | INFO     | app | ============================================================
+2026-07-16 23:47:49 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:47:49 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:47:49 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:47:49 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:47:49 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:47:49 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:48:19 | INFO     | core.theme | Тема изменена на: light
+2026-07-16 23:48:21 | INFO     | core.theme | Тема изменена на: dark
+2026-07-16 23:48:24 | INFO     | flet | Session was garbage collected: vCOWe3xF3fLJeaJc
+2026-07-16 23:49:27 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:49:27 | INFO     | app | ============================================================
+2026-07-16 23:49:27 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:49:27 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:49:27 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:49:27 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:49:27 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:49:27 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:49:51 | INFO     | flet | Session was garbage collected: zk4N7CdhFq5FiV4M
+2026-07-16 23:50:18 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:50:18 | INFO     | app | ============================================================
+2026-07-16 23:50:18 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:50:18 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:50:19 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:50:19 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:50:19 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:50:19 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:50:23 | INFO     | controllers.base_controller.GlrConverterController | Выбран ZIP-файл: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip (3869 байт)
+2026-07-16 23:50:26 | INFO     | controllers.base_controller.GlrConverterController | Старт конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip
+2026-07-16 23:50:26 | INFO     | services.conversion_service | Получен запрос на конвертацию: архив=C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip, выходной файл=C:\Users\Nick\Downloads\приглашение\КВ 11 В 2.gpx
+2026-07-16 23:50:27 | INFO     | services.glr_converter | Запуск алгоритма конвертации: C:\Users\Nick\Downloads\приглашение\ЗС-260706-6834806 (2).zip → C:\Users\Nick\Downloads\приглашение\КВ 11 В 2.gpx
+2026-07-16 23:50:27 | INFO     | services.glr_legacy | Найден один контур, будет создан один трек в GPX-файле
+2026-07-16 23:50:27 | INFO     | services.glr_converter | Алгоритм конвертации завершил работу за 0.10 с
+2026-07-16 23:50:27 | INFO     | services.conversion_service | Конвертация успешно завершена за 0.20 с. Файл сохранён: C:\Users\Nick\Downloads\приглашение\КВ 11 В 2.gpx
+2026-07-16 23:50:28 | ERROR    | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 423, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 529, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\app.py", line 149, in open_notifications
+    notifications.show_history()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\ui\dialogs\notifications.py", line 169, in show_history
+    content=ft.Container(
+            ~~~~~~~~~~~~^
+        width=500,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    ),
+    ^
+TypeError: Container.__init__() got an unexpected keyword argument 'max_height'
+2026-07-16 23:51:20 | INFO     | app | Приложение завершает работу
+2026-07-16 23:51:20 | INFO     | flet | Session was garbage collected: QUsJx0WG5xiAnFex
+2026-07-16 23:51:34 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:51:34 | INFO     | app | ============================================================
+2026-07-16 23:51:34 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:51:34 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:51:34 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:51:34 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:51:34 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:51:34 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:51:37 | ERROR    | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 423, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 529, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\ui\dialogs\notifications.py", line 184, in <lambda>
+    ft.TextButton("Закрыть", on_click=lambda _: self._page.close_dialog()),
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'close_dialog'. Did you mean: 'close_drawer'?
+2026-07-16 23:51:39 | ERROR    | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 423, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 529, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\ui\dialogs\notifications.py", line 184, in <lambda>
+    ft.TextButton("Закрыть", on_click=lambda _: self._page.close_dialog()),
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'close_dialog'. Did you mean: 'close_drawer'?
+2026-07-16 23:52:22 | ERROR    | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 423, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 529, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\ui\dialogs\notifications.py", line 184, in <lambda>
+    ft.TextButton("Закрыть", on_click=lambda _: self._page.close_dialog()),
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'close_dialog'. Did you mean: 'close_drawer'?
+2026-07-16 23:52:22 | ERROR    | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\messaging\session.py", line 423, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\.venv\Lib\site-packages\flet\controls\base_control.py", line 529, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\ui\dialogs\notifications.py", line 184, in <lambda>
+    ft.TextButton("Закрыть", on_click=lambda _: self._page.close_dialog()),
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'close_dialog'. Did you mean: 'close_drawer'?
+2026-07-16 23:52:23 | INFO     | app | Приложение завершает работу
+2026-07-16 23:52:23 | INFO     | flet | Session was garbage collected: TINYjDw72EuccKoR
+2026-07-16 23:52:26 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:52:26 | INFO     | app | ============================================================
+2026-07-16 23:52:26 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:52:26 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:52:26 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:52:26 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:52:26 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:52:26 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:52:35 | INFO     | flet | Session was garbage collected: NtYaIqsY3iKRy01J
+2026-07-16 23:53:59 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:53:59 | INFO     | app | ============================================================
+2026-07-16 23:53:59 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:53:59 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:53:59 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:53:59 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:54:00 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:54:00 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:54:11 | INFO     | flet | Session was garbage collected: kvYPDX9Vgem8BJKK
+2026-07-16 23:56:36 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-16 23:56:36 | INFO     | app | ============================================================
+2026-07-16 23:56:36 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-16 23:56:36 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-16 23:56:36 | INFO     | core.theme | Тема применена: dark
+2026-07-16 23:56:37 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-16 23:56:37 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-16 23:56:37 | INFO     | app | Приложение успешно инициализировано
+2026-07-16 23:56:44 | INFO     | flet | Session was garbage collected: PVAc73uvCc3nYVFP
