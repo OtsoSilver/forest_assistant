@@ -1,0 +1,558 @@
+([('PIL\\_avif.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_avif.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_imagingft.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_imagingmath.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\PIL\\_webp.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_zstd.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('assets\\fonts\\.gitkeep',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\assets\\fonts\\.gitkeep',
+   'DATA'),
+  ('assets\\icons\\app_icon.ico',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\assets\\icons\\app_icon.ico',
+   'DATA'),
+  ('assets\\icons\\app_icon.png',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\assets\\icons\\app_icon.png',
+   'DATA'),
+  ('assets\\images\\logo.png',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\assets\\images\\logo.png',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\build\\forest_assistant\\base_library.zip',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('flet\\controls\\cupertino\\cupertino_icons.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\flet\\controls\\cupertino\\cupertino_icons.json',
+   'DATA'),
+  ('flet\\controls\\cupertino\\cupertino_icons.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\flet\\controls\\cupertino\\cupertino_icons.pyi',
+   'DATA'),
+  ('flet\\controls\\material\\icons.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\flet\\controls\\material\\icons.json',
+   'DATA'),
+  ('flet\\controls\\material\\icons.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\flet\\controls\\material\\icons.pyi',
+   'DATA'),
+  ('flet\\py.typed',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\flet\\py.typed',
+   'DATA'),
+  ('forest_assistant.exe',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\build\\forest_assistant\\forest_assistant.exe',
+   'EXECUTABLE'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('lxml\\_elementpath.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\_elementpath.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\builder.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\builder.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\etree.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\etree.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\_difflib.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\html\\_difflib.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\diff.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\html\\diff.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'DATA'),
+  ('lxml\\objectify.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\objectify.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\sax.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\lxml\\sax.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('msgpack\\_cmsgpack.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\msgpack\\_cmsgpack.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('pyproj.libs\\jpeg62-6af98f759afc6cea2ea01a24bea0bc98.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\jpeg62-6af98f759afc6cea2ea01a24bea0bc98.dll',
+   'BINARY'),
+  ('pyproj.libs\\libcurl-50d401113827f0f3a5d90c6a7176c6ad.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\libcurl-50d401113827f0f3a5d90c6a7176c6ad.dll',
+   'BINARY'),
+  ('pyproj.libs\\liblzma-0b4d0ddf0e0758305b1b8162225048f8.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\liblzma-0b4d0ddf0e0758305b1b8162225048f8.dll',
+   'BINARY'),
+  ('pyproj.libs\\msvcp140-0f885b509a685d2bbfa652fed26b5fb3.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\msvcp140-0f885b509a685d2bbfa652fed26b5fb3.dll',
+   'BINARY'),
+  ('pyproj.libs\\proj_9-c635a7dcf1c2f5308514f46a54311e70.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\proj_9-c635a7dcf1c2f5308514f46a54311e70.dll',
+   'BINARY'),
+  ('pyproj.libs\\sqlite3-fe7be31bbec5a4ba375dbf7916a37e96.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\sqlite3-fe7be31bbec5a4ba375dbf7916a37e96.dll',
+   'BINARY'),
+  ('pyproj.libs\\tiff-04898ba48a3f57dbaae85579a67d7489.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\tiff-04898ba48a3f57dbaae85579a67d7489.dll',
+   'BINARY'),
+  ('pyproj.libs\\zlib1-9b024f7633a4f81dfeedce1958c40759.dll',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj.libs\\zlib1-9b024f7633a4f81dfeedce1958c40759.dll',
+   'BINARY'),
+  ('pyproj\\_compat.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_compat.c',
+   'DATA'),
+  ('pyproj\\_compat.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_compat.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_compat.pxd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_compat.pxd',
+   'DATA'),
+  ('pyproj\\_compat.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_compat.pyi',
+   'DATA'),
+  ('pyproj\\_compat.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_compat.pyx',
+   'DATA'),
+  ('pyproj\\_context.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_context.c',
+   'DATA'),
+  ('pyproj\\_context.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_context.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_context.pxd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_context.pxd',
+   'DATA'),
+  ('pyproj\\_context.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_context.pyi',
+   'DATA'),
+  ('pyproj\\_context.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_context.pyx',
+   'DATA'),
+  ('pyproj\\_crs.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_crs.c',
+   'DATA'),
+  ('pyproj\\_crs.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_crs.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_crs.pxd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_crs.pxd',
+   'DATA'),
+  ('pyproj\\_crs.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_crs.pyi',
+   'DATA'),
+  ('pyproj\\_crs.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_crs.pyx',
+   'DATA'),
+  ('pyproj\\_geod.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_geod.c',
+   'DATA'),
+  ('pyproj\\_geod.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_geod.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_geod.pxd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_geod.pxd',
+   'DATA'),
+  ('pyproj\\_geod.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_geod.pyi',
+   'DATA'),
+  ('pyproj\\_geod.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_geod.pyx',
+   'DATA'),
+  ('pyproj\\_network.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_network.c',
+   'DATA'),
+  ('pyproj\\_network.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_network.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_network.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_network.pyi',
+   'DATA'),
+  ('pyproj\\_network.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_network.pyx',
+   'DATA'),
+  ('pyproj\\_sync.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_sync.c',
+   'DATA'),
+  ('pyproj\\_sync.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_sync.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_sync.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_sync.pyi',
+   'DATA'),
+  ('pyproj\\_sync.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_sync.pyx',
+   'DATA'),
+  ('pyproj\\_transformer.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_transformer.c',
+   'DATA'),
+  ('pyproj\\_transformer.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_transformer.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_transformer.pxd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_transformer.pxd',
+   'DATA'),
+  ('pyproj\\_transformer.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_transformer.pyi',
+   'DATA'),
+  ('pyproj\\_transformer.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_transformer.pyx',
+   'DATA'),
+  ('pyproj\\_version.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_version.c',
+   'DATA'),
+  ('pyproj\\_version.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_version.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\_version.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_version.pyi',
+   'DATA'),
+  ('pyproj\\_version.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\_version.pyx',
+   'DATA'),
+  ('pyproj\\base.pxi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\base.pxi',
+   'DATA'),
+  ('pyproj\\database.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\database.c',
+   'DATA'),
+  ('pyproj\\database.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\database.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\database.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\database.pyi',
+   'DATA'),
+  ('pyproj\\database.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\database.pyx',
+   'DATA'),
+  ('pyproj\\list.c',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\list.c',
+   'DATA'),
+  ('pyproj\\list.cp314-win_amd64.pyd',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\list.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyproj\\list.pyi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\list.pyi',
+   'DATA'),
+  ('pyproj\\list.pyx',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\list.pyx',
+   'DATA'),
+  ('pyproj\\proj.pxi',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj.pxi',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\CH',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\CH',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\GL27',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\GL27',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\ITRF2000',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\ITRF2000',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\ITRF2008',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\ITRF2008',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\ITRF2014',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\ITRF2014',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\ITRF2020',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\ITRF2020',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\copyright',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\copyright',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\deformation_model.schema.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\deformation_model.schema.json',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\nad.lst',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\nad.lst',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\nad27',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\nad27',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\nad83',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\nad83',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\other.extra',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\other.extra',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj-config-version.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj-config-version.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj-config.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj-config.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj-targets-debug.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj-targets-debug.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj-targets-release.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj-targets-release.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj-targets.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj-targets.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj.db',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj.db',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj.ini',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj.ini',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj4-targets-debug.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj4-targets-debug.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj4-targets-release.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj4-targets-release.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\proj4-targets.cmake',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\proj4-targets.cmake',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\projjson.schema.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\projjson.schema.json',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\triangulation.schema.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\triangulation.schema.json',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\usage',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\usage',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\vcpkg.spdx.json',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\vcpkg.spdx.json',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\vcpkg_abi_info.txt',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\vcpkg_abi_info.txt',
+   'DATA'),
+  ('pyproj\\proj_dir\\share\\proj\\world',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\proj_dir\\share\\proj\\world',
+   'DATA'),
+  ('pyproj\\py.typed',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\pyproj\\py.typed',
+   'DATA'),
+  ('python314.dll',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\Nick\\Desktop\\Kimi_Agent_Shared '
+   'attachments\\forest_assistant\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Nick\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\unicodedata.pyd',
+   'EXTENSION')],)

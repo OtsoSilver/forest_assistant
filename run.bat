@@ -14,6 +14,6 @@ if exist ".venv\Scripts\python.exe" (
 
 if errorlevel 1 (
     echo.
-    echo Приложение завершилось с ошибкой. Подробности — в папке logs.
+    echo "Приложение завершилось с ошибкой. Подробности — в папке logs."
     pause
 )

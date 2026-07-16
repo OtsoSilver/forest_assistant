@@ -12,9 +12,9 @@ echo Installing build dependencies...
 %PYTHON_CMD% -m pip install --upgrade pip pyinstaller
 
 echo Building executable...
-%PYTHON_CMD% -m PyInstaller --noconfirm --clean --windowed --name "forest_assistant" --icon "assets\icons\app_icon.ico" --add-data "assets;assets" --distpath "dist" --workpath "build" main.py
+%PYTHON_CMD% -m PyInstaller --noconfirm --clean --distpath "dist" --workpath "build" forest_assistant.spec
 
 echo.
 echo Build finished.
-echo Output: %~dp0dist\forest_assistant.exe
+echo Output: %~dp0dist\forest_assistant\forest_assistant.exe
 endlocal

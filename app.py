@@ -103,10 +103,10 @@ class ForestAssistantApp:
 
         window = settings.current.window
         try:
-            page.window.width = window.width
-            page.window.height = window.height
             page.window.min_width = WINDOW_MIN_WIDTH
             page.window.min_height = WINDOW_MIN_HEIGHT
+            page.window.width = max(window.width or WINDOW_MIN_WIDTH, WINDOW_MIN_WIDTH)
+            page.window.height = max(window.height or WINDOW_MIN_HEIGHT, WINDOW_MIN_HEIGHT)
             if window.left is not None and window.top is not None:
                 page.window.left = window.left
                 page.window.top = window.top

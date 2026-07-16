@@ -850,3 +850,12 @@ AttributeError: 'Page' object has no attribute 'close_dialog'. Did you mean: 'cl
 2026-07-16 23:56:37 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
 2026-07-16 23:56:37 | INFO     | app | Приложение успешно инициализировано
 2026-07-16 23:56:44 | INFO     | flet | Session was garbage collected: PVAc73uvCc3nYVFP
+2026-07-17 00:20:45 | INFO     | core.logging_config | Система логирования инициализирована. Файл журнала: C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\logs\forest_assistant.log
+2026-07-17 00:20:45 | INFO     | app | ============================================================
+2026-07-17 00:20:45 | INFO     | app | Запуск приложения «Лесной помощник» v1.0.0
+2026-07-17 00:20:45 | INFO     | core.settings | Настройки успешно загружены из C:\Users\Nick\Desktop\Kimi_Agent_Shared attachments\forest_assistant\settings.json
+2026-07-17 00:20:45 | INFO     | core.theme | Тема применена: dark
+2026-07-17 00:20:45 | INFO     | core.registry | Зарегистрирован инструмент: Конвертер выписок ГЛР → GPX (glr_to_gpx)
+2026-07-17 00:20:45 | INFO     | core.router | Навигация к инструменту: glr_to_gpx
+2026-07-17 00:20:45 | INFO     | app | Приложение успешно инициализировано
+2026-07-17 00:21:07 | INFO     | flet | Session was garbage collected: Z4zBlEVAPUMNges6

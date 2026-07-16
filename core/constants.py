@@ -24,8 +24,8 @@ APP_DESCRIPTION: Final[str] = "Инструменты сотрудника ле�
 
 WINDOW_DEFAULT_WIDTH: Final[int] = 1240
 WINDOW_DEFAULT_HEIGHT: Final[int] = 800
-WINDOW_MIN_WIDTH: Final[int] = 1060
-WINDOW_MIN_HEIGHT: Final[int] = 700
+WINDOW_MIN_WIDTH: Final[int] = 1240
+WINDOW_MIN_HEIGHT: Final[int] = 800
 
 # ---------------------------------------------------------------------------
 # Боковая панель

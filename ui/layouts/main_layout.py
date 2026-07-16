@@ -13,7 +13,13 @@ from __future__ import annotations
 
 import flet as ft
 
-from core.constants import ANIMATION_MEDIUM_MS, ANIMATION_SLOW_MS
+from core.constants import (
+    ANIMATION_MEDIUM_MS,
+    ANIMATION_SLOW_MS,
+    SIDEBAR_COLLAPSED_WIDTH,
+    SIDEBAR_WIDTH,
+    WINDOW_MIN_WIDTH,
+)
 from core.context import AppContext
 from core.logging_config import get_logger
 from core.theme import ThemePreference
@@ -69,7 +75,7 @@ class MainLayout:
     def _compose(self) -> ft.Control:
         """Собирает строку «сайдбар + рабочая область» с актуальной палитрой."""
         palette = self._context.theme.palette
-        collapsed = self._context.settings.current.sidebar.collapsed
+        collapsed = True
 
         self._sidebar = Sidebar(
             context=self._context,
@@ -146,8 +152,20 @@ class MainLayout:
     # ------------------------------------------------------------------
 
     def _persist_collapse(self, collapsed: bool) -> None:
-        """Сохраняет состояние панели (свёрнута/развёрнута) в настройках."""
+        """Сохраняет состояние панели (свёрнута/развёрнута) и подстраивает ширину окна."""
         self._context.settings.update(
             lambda s: setattr(s.sidebar, "collapsed", collapsed)
         )
         logger.debug("Состояние боковой панели сохранено: collapsed=%s", collapsed)
+
+        current_width = int(self._context.page.window.width or WINDOW_MIN_WIDTH)
+        delta = SIDEBAR_WIDTH - SIDEBAR_COLLAPSED_WIDTH
+        if collapsed:
+            new_width = max(current_width - delta, WINDOW_MIN_WIDTH)
+        else:
+            new_width = current_width + delta
+        self._context.page.window.width = new_width
+        try:
+            self._context.page.update()
+        except Exception:
+            pass
