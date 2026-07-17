@@ -1,0 +1,35 @@
+name: Build Windows
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:  # позволяет запускать вручную
+
+env:
+  UV_PYTHON: 3.12
+  PYTHONUTF8: 1
+  FLET_CLI_NO_RICH_OUTPUT: 1
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install dependencies
+        run: uv sync --frozen   # или uv pip install -r requirements.txt
+
+      - name: Build Windows app
+        run: uv run flet build windows --yes --verbose
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: build/windows
