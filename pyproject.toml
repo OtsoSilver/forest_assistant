@@ -1,0 +1,10 @@
+[project]
+name = "Лесной помощник"
+version = "1.0.0"
+requires-python = ">=3.10"
+
+[tool.flet]
+product = "Лесной помощник"      # имя в заголовке окна, About и т.д.
+company = "ИП Тонкошкуров"
+copyright = "Copyright © 2026"
+artifact = "Лесной помощник"              # имя exe-файла
