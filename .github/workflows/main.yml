@@ -23,7 +23,10 @@ jobs:
         uses: astral-sh/setup-uv@v6
 
       - name: Install dependencies
-        run: uv sync --frozen   # или uv pip install -r requirements.txt
+        run: |
+          uv venv
+          uv pip install -r requirements.txt
+          uv pip install flet   # или uv pip install -r requirements.txt
 
       - name: Build Windows app
         run: uv run flet build windows --yes --verbose
